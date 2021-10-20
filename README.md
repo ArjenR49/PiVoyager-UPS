@@ -5,7 +5,7 @@ It caters for button presses, and USB power failure with shut-down and power cut
 
 The control script writes a minimal amount of messages to the syslog when installed as a service.
 Check status by 'sudo systemctl status pivoyager'.
-The commamd 'pivoyager status' also provides current information.
+The command 'pivoyager status' also provides current information.
 
 Please note: performing shutdown as a terminal command or via the GUI will require pressing the PiVoyager's button to make the Pi start up again. Therefore, if the Pi is shut down remotely, control will be lost and require physical access to the Pi/PiVoyager combination.
 
