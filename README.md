@@ -9,5 +9,5 @@ The commamd 'pivoyager status' also provides current information.
 
 Please note: performing shutdown as a terminal command or via the GUI will require pressing the PiVoyager's button to make the Pi start up again. Therefore, if the Pi is shut down remotely, control will be lost and require physical access to the Pi/PiVoyager combination.
 
-To safeguard the Pi against 'freezing' of the OS, by rebooting a crashed Pi, use the Raspberry Pi hardware watchdog, which makes use of the PI's GPU. The PiVoyager watchdog cannot serve this purpose as communications between Pi and UPS board breaks when the Pi crashes/freezes.
+To safeguard the Pi against 'freezing' of the OS, by rebooting a crashed Pi, use the Raspberry Pi hardware watchdog, which makes use of the PI's GPU. The PiVoyager watchdog cannot serve this purpose as communications between Pi and UPS board break as soon as the Pi crashes/freezes.
 The hardware watchdog can be tested with the so-called 'forkbomb'.
