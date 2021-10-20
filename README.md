@@ -1,7 +1,7 @@
 # PiVoyager-UPS
 
 The control script should be installed as a service as described in OMZLO's PiVoyager documentation.
-It caters for button presses and USB power failure with shut-down and power cut-off when the battery is depleted (less than 3,1 V). Upon return of USB power the Pi will be started automatically when the battery reaches 3,3 V per the original documentation.
+It caters for button presses, and USB power failure with shut-down and power cut-off when the battery is depleted (less than 3,1 V). Upon return of USB power the Pi will be started automatically when the battery reaches 3,3 V per the original documentation.
 
 The control script writes a minimal amount of messages to the syslog when installed as a service.
 Check status by 'sudo systemctl status pivoyager'.
